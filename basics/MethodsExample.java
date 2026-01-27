@@ -3,7 +3,7 @@ package basics;
 public class MethodsExample {
 
     public void greet() {
-        System.out.println("Hello from method");
+        System.out.println("Hello from method Hello method again");
     }
 
     public int add(int a, int b) {
