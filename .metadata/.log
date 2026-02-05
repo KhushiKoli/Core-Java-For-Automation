@@ -1,0 +1,113 @@
+!SESSION 2026-01-29 11:51:09.363 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.6
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:/Users/hp/OneDrive/Desktop/Core-Java-For-Automation
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-29 11:51:14.781
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2026-01-29 11:51:15.179
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (793) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-29 11:51:17.403
+!MESSAGE Logback config file: C:\Users\hp\OneDrive\Desktop\Core-Java-For-Automation\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-01-29 11:51:37.450
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\hp'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.director 2 10054 2026-01-29 11:52:26.429
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2026-01-29 11:52:26.429
+!MESSAGE Software being installed: artificial_root 1.0.0.v1769667742728
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2026-01-29 11:52:26.429
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-01-29 11:52:26.429
+!MESSAGE Mylyn Git Connector 3.26.1.v20230604-1755 (org.eclipse.mylyn.git.core 3.26.1.v20230604-1755)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-01-29 11:52:26.430
+!MESSAGE Mylyn Git Connector 4.7.0.v20250326-1000 (org.eclipse.mylyn.git.core 4.7.0.v20250326-1000)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2026-01-29 11:52:26.430
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-01-29 11:52:26.430
+!MESSAGE From: artificial_root 1.0.0.v1769667742728
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-01-29 11:52:26.430
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.git.feature.feature.group 4.7.0.v20250326-1000
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2026-01-29 11:52:26.430
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-01-29 11:52:26.430
+!MESSAGE From: artificial_root 1.0.0.v1769667742728
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-01-29 11:52:26.430
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.git.feature.group 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2026-01-29 11:52:26.430
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-01-29 11:52:26.430
+!MESSAGE From: Mylyn Versions Connector: Git 4.7.0.v20250326-1000 (org.eclipse.mylyn.git.feature.feature.group 4.7.0.v20250326-1000)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-01-29 11:52:26.430
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.git.core [4.7.0.v20250326-1000,4.7.0.v20250326-1000]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2026-01-29 11:52:26.430
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-01-29 11:52:26.430
+!MESSAGE From: Mylyn Versions Connector: Git 3.26.1.v20230604-1755 (org.eclipse.mylyn.git.feature.group 3.26.1.v20230604-1755)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-01-29 11:52:26.430
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.git.core [3.26.1.v20230604-1755,3.26.1.v20230604-1755]
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2026-01-29 11:52:26.434
+!MESSAGE Setup tasks were performed during startup. See 'C:\Users\hp\eclipse\java-2023-06\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-01-29 11:54:00.512
+!MESSAGE Invalid project description for project 'Core-Java-For-Automation' at 'file:/C:/Users/hp/OneDrive/Desktop/Core-Java-For-Automation' 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description for project 'Core-Java-For-Automation' at 'file:/C:/Users/hp/OneDrive/Desktop/Core-Java-For-Automation' 
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:211)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:95)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:305)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:291)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:179)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:104)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2477)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:138)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:62)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:254)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Contains: OK
+Contains: C:\Users\hp\OneDrive\Desktop\Core-Java-For-Automation overlaps the workspace location: C:\Users\hp\OneDrive\Desktop\Core-Java-For-Automation
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2026-01-29 11:54:00.513
+!MESSAGE Invalid project description for project 'Core-Java-For-Automation' at 'file:/C:/Users/hp/OneDrive/Desktop/Core-Java-For-Automation' 
+!SUBENTRY 2 unknown 0 0 2026-01-29 11:54:00.513
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2026-01-29 11:54:00.513
+!MESSAGE C:\Users\hp\OneDrive\Desktop\Core-Java-For-Automation overlaps the workspace location: C:\Users\hp\OneDrive\Desktop\Core-Java-For-Automation
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-01-29 11:54:50.320
+!MESSAGE Invalid project description for project 'Core-Java-For-Automation' at 'file:/C:/Users/hp/OneDrive/Desktop/Core-Java-For-Automation' 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description for project 'Core-Java-For-Automation' at 'file:/C:/Users/hp/OneDrive/Desktop/Core-Java-For-Automation' 
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:211)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:95)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:305)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:291)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:179)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:104)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2477)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:138)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:62)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:254)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Contains: OK
+Contains: C:\Users\hp\OneDrive\Desktop\Core-Java-For-Automation overlaps the workspace location: C:\Users\hp\OneDrive\Desktop\Core-Java-For-Automation
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2026-01-29 11:54:50.320
+!MESSAGE Invalid project description for project 'Core-Java-For-Automation' at 'file:/C:/Users/hp/OneDrive/Desktop/Core-Java-For-Automation' 
+!SUBENTRY 2 unknown 0 0 2026-01-29 11:54:50.320
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2026-01-29 11:54:50.320
+!MESSAGE C:\Users\hp\OneDrive\Desktop\Core-Java-For-Automation overlaps the workspace location: C:\Users\hp\OneDrive\Desktop\Core-Java-For-Automation
