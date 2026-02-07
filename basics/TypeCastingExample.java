@@ -18,3 +18,4 @@ public class TypeCastingExample {
         System.out.println("Total amount: " + totalAmount);
     }
 }
+
