@@ -16,6 +16,7 @@ public class TypeCastingExample {
         double totalAmount = price * quantity; // implicit casting
 
         System.out.println("Total amount: " + totalAmount);
+        
     }
 }
 

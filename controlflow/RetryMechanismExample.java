@@ -10,7 +10,7 @@ public class RetryMechanismExample {
         for (int attempt = 1; attempt <= maxRetry; attempt++) {
             System.out.println("Attempt: " + attempt);
 
-            // Simulating success on 3rd attempt
+            // Getting success on 3rd attempt
             if (attempt == 3) {
                 isSuccess = true;
                 break;
