@@ -20,7 +20,7 @@ public class Operators {
         System.out.println("a>5 || b>5: " + (a > 5 || b > 5));
 
         // Increment/Decrement
-        System.out.println("a++: " + a++);
-        System.out.println("++a: " + (++a));
+        System.out.println("a++: " + a++); //post increment
+        System.out.println("++a: " + (++a)); //pre-increment
     }
 }

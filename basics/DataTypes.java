@@ -10,7 +10,7 @@ public class DataTypes {
         double d = 9.99999;
         char c = 'A';
         boolean bool = true;
-        String str = "Java";
+        String str = "Java"; //class in Java
 
         System.out.println("byte: " + b);
         System.out.println("short: " + s);
