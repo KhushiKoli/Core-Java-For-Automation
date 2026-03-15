@@ -2,7 +2,7 @@ package oops;
 
 // Abstraction: hide implementation details, show only essential features
 
-// Abstract class - cannot be instantiated directly
+// Abstract class - cannot be instantiated directly ( we can't create an object directly that need to be inherit)
 abstract class Vehicle {
     String brand;
     int    speed;
@@ -51,7 +51,7 @@ public class Abstraction {
         // Vehicle v = new Vehicle("X", 100);  // ❌ Cannot instantiate abstract class
 
         Vehicle car  = new Car("Toyota", 180);
-        Vehicle bike = new ElectricBike("Tesla", 120);
+        Vehicle bike = new ElectricBike("Ather", 120);
 
         car.start();       // Toyota starts with ignition key
         car.fuelType();    // Toyota runs on Petrol/Diesel
